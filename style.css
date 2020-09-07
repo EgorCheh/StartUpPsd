@@ -1,23 +1,29 @@
 
-*{font-family: "Montserrat";}
+*{font-family: "Montserrat";
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
 body{
     box-sizing: border-box;
+    
 }
 a{
     text-decoration-line: none;
-    ;
+    
 }
 .home_section{
     max-width: 1600px;
-    height: 770px;
+    min-height: 770px;
     background-image: url("/img/Layer10.png.png");
     margin: 0 auto; 
+    position: relative;
     
 }
 .container__home{
     height: 100%;
     max-width: 1140px;
-    padding: 0 15;
+    padding: 0 15px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -65,7 +71,7 @@ ul,li{
     font-family: "Montserrat";
     height: 49px;
     width: 175px;
-    margin: 0 auto;
+    margin: 10PX auto;
     border:2px solid white;
     font-size: 16px;
     color: white;
@@ -78,32 +84,30 @@ ul,li{
     color: #c0301c;
 }
 .start p {
-    width: 100%;
-    height: 100%;
-   position: absolute;    
+    padding-top: 13px;
    text-align:center ;           
-   top: 50%;                         
-   transform: translate(0, -50%);
+   
    font-weight: bold;
 }
 .services_section{
 max-width: 1600px;
-height: 579px;
+min-height: 579px;
 margin: 0 auto; 
+
 }
 .container__section{
     height: 100%;
     max-width: 1140px;
-    padding: 0 15;
+    padding: 0 15px;
     margin: 0 auto;
-
 }
 .line{
     width: 40px;
     color: black;
+    margin: 10px auto 10px;
 }
 .title p{
-    margin-top:100px ;
+    padding-top :100px ;
 text-align: center;
 font-size: 20px;
 }
@@ -129,6 +133,7 @@ text-align:center;
 font-size: 18px;
 font-weight: bold;
 color: #000;
+margin-top:20px ;
 
 }
 .services_item_subtitle{
@@ -146,8 +151,8 @@ margin: 0 auto;
 position: relative;
 }
 .services_item_icon{
-    background: url(/img/fa-code.svg);
     
+    transition-duration:0.8s;
     display: block;
    position: absolute;              
    top: 50%;  
@@ -155,7 +160,39 @@ position: relative;
    transform: translate(-50%, -50%);
    font-weight: bold;
 }
-.back_serv:hover .services_item div{
-background: #f0b3ab;
+.services_item_icon2{
+    
+    
+    transition-duration:0.8s;
+    display: block;
+   position: absolute;              
+   top: 50%;  
+   left: 50%;                       
+   transform: translate(-50%, -50%);
+   font-weight: bold;
 }
 
+.back_serv:hover .services_item div{
+background: #c0301c;
+}
+.back_serv:hover .services_item_icon{
+    opacity: 0;
+    }
+
+.aboutus_section{
+    max-width: 1600px;
+    min-height: 852px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+.aboutus_content{
+   margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.aboutus_content p{
+    max-width: 45%;
+    text-align:center;
+}
