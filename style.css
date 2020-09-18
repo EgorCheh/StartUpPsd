@@ -209,6 +209,44 @@ li {
   position: relative;
 }
 
+.back__item{
+background-color: black;
+}
+
+.team__links{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  max-height: 30px;
+  margin-left: 30px;
+  margin-bottom: 55px;
+  visibility: hidden;
+}
+.back__link{
+  position: absolute;
+  width: 100%;
+  max-height: 260px;
+}
+
+.back__link:hover .team__links{
+  background: rgba(0, 155, 0, .8);
+}
+
+.link{
+  width: 45px;
+  max-height: 45px;
+  display: inline-block;
+  background-image: url("/img/Notification-icon-Wikipedia-logo.svg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  cursor: pointer;
+  
+}
+.link:hover{
+  background-color:  #c0301c;
+}
+
 .slider__control {
   position: absolute;
   top: 50%;
