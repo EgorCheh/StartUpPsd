@@ -90,6 +90,7 @@ li {
   max-width: 1600px;
   min-height: 579px;
   margin: 0 auto;
+  background-color: white;
 }
 .container__section {
   height: 100%;
@@ -315,6 +316,7 @@ background-color: black;
   max-width: 1600px;
   min-height: 1380px;
   margin: 0 auto;
+  background-color: white;
 }
 .navigation_works {
   width: 100%;
@@ -353,7 +355,7 @@ background-color: black;
 .work_how{
   width: 100%;
   height: 0%;
-  background: rgb(192,48,28,.8);
+  background: rgb(192,48,28,.7);
   text-align: center;
   color: white;
   position: relative;
@@ -385,4 +387,21 @@ margin: 30px auto;
   transition-delay: 0.3s;
   transition-duration: 0.8s;
   opacity: 1;
+}
+.call_section{
+  max-width: 1600px;
+  min-height: 368px;
+  background-image: url("/img/Layer 29.png");
+  margin: 0 auto;
+}
+.call_section h3{
+  color: #fff;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 30px;
+}
+.call_back{
+  max-width: 1600px;
+  min-height: 368px;
+  background: rgb(192,48,28,.5);
 }
