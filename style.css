@@ -310,3 +310,79 @@ background-color: black;
   min-height: 260px;
   max-height: 260px;
 }
+
+.works_section {
+  max-width: 1600px;
+  min-height: 1380px;
+  margin: 0 auto;
+}
+.navigation_works {
+  width: 100%;
+  height: 23px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+}
+.navigation_menu_works li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navigation_menu_works a {
+  color: black;
+  font-size: 20px;
+}
+.navigation_menu_works a:hover {
+  color: #c0301c;
+}
+.works_container{
+  width: 100%;
+  height: 1020px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.work{
+  margin: 15px;
+  cursor: pointer;
+  background-image: url("/img/Layer 25.png");
+  background-size: 100% 100%;
+}
+.work_how{
+  width: 100%;
+  height: 0%;
+  background: rgb(192,48,28,.8);
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.work_how_title{
+  padding-top: 80px;
+}
+
+.work_how_view{
+width: 100px;
+height: 40px;
+background-color: #fff;
+color: #c0301c;
+font-weight: bold;
+margin: 30px auto;
+
+}
+.work_how_view p{
+  padding-top: 10px;
+} 
+.work:hover .work_how{
+  transition-duration: .8s;
+  height: 100%;
+}
+.work_how *{
+  opacity: 0;
+}
+.work_how:hover *{
+  transition-delay: 0.3s;
+  transition-duration: 0.8s;
+  opacity: 1;
+}
